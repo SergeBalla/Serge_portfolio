@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Dimap_Document name="rainy_days_grm_Spk.dim">
+    <Metadata_Id>
+        <METADATA_FORMAT version="2.13.0">DIMAP</METADATA_FORMAT>
+        <METADATA_PROFILE>BEAM-DATAMODEL-V1</METADATA_PROFILE>
+    </Metadata_Id>
+    <Dataset_Id>
+        <DATASET_SERIES>BEAM-PRODUCT</DATASET_SERIES>
+        <DATASET_NAME>rainy_days_grm_Spk</DATASET_NAME>
+    </Dataset_Id>
+    <Production>
+        <DATASET_PRODUCER_NAME />
+        <PRODUCT_TYPE>GeoTIFF-BigTIFF</PRODUCT_TYPE>
+    </Production>
+    <Coordinate_Reference_System>
+        <WKT>
+             GEOGCS["WGS 84", 
+               DATUM["World Geodetic System 1984", 
+                 SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+                 AUTHORITY["EPSG","6326"]], 
+               PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+               UNIT["degree", 0.017453292519943295], 
+               AXIS["Geodetic longitude", EAST], 
+               AXIS["Geodetic latitude", NORTH], 
+               AUTHORITY["EPSG","4326"]]
+        </WKT>
+    </Coordinate_Reference_System>
+    <Geoposition>
+        <IMAGE_TO_MODEL_TRANSFORM>8.983152841195215E-5,0.0,0.0,-8.983152841195215E-5,11.413904168494229,4.024093146741809</IMAGE_TO_MODEL_TRANSFORM>
+    </Geoposition>
+    <Raster_Dimensions>
+        <NCOLS>1811</NCOLS>
+        <NROWS>3340</NROWS>
+        <NBANDS>1</NBANDS>
+    </Raster_Dimensions>
+    <Data_Access>
+        <DATA_FILE_FORMAT>ENVI</DATA_FILE_FORMAT>
+        <DATA_FILE_FORMAT_DESC>ENVI File Format</DATA_FILE_FORMAT_DESC>
+        <DATA_FILE_ORGANISATION>BAND_SEPARATE</DATA_FILE_ORGANISATION>
+        <Data_File>
+            <DATA_FILE_PATH href="rainy_days_grm_Spk.data/band_1.hdr" />
+            <BAND_INDEX>0</BAND_INDEX>
+        </Data_File>
+    </Data_Access>
+    <Image_Interpretation>
+        <Spectral_Band_Info>
+            <BAND_INDEX>0</BAND_INDEX>
+            <BAND_DESCRIPTION />
+            <BAND_NAME>band_1</BAND_NAME>
+            <BAND_RASTER_WIDTH>1811</BAND_RASTER_WIDTH>
+            <BAND_RASTER_HEIGHT>3340</BAND_RASTER_HEIGHT>
+            <DATA_TYPE>float32</DATA_TYPE>
+            <PHYSICAL_UNIT>amplitude</PHYSICAL_UNIT>
+            <SOLAR_FLUX>0.0</SOLAR_FLUX>
+            <BAND_WAVELEN>0.0</BAND_WAVELEN>
+            <BANDWIDTH>0.0</BANDWIDTH>
+            <SCALING_FACTOR>1.0</SCALING_FACTOR>
+            <SCALING_OFFSET>0.0</SCALING_OFFSET>
+            <LOG10_SCALED>false</LOG10_SCALED>
+            <NO_DATA_VALUE_USED>false</NO_DATA_VALUE_USED>
+            <NO_DATA_VALUE>0.0</NO_DATA_VALUE>
+            <IMAGE_TO_MODEL_TRANSFORM>8.983152841195215E-5,0.0,0.0,-8.983152841195215E-5,11.413904168494229,4.024093146741809</IMAGE_TO_MODEL_TRANSFORM>
+        </Spectral_Band_Info>
+    </Image_Interpretation>
+    <Dataset_Sources>
+        <MDElem name="metadata">
+            <MDElem name="Abstracted_Metadata">
+                <MDATTR name="PRODUCT" desc="Product name" unit="" type="ascii" mode="rw">rainy_days_grm</MDATTR>
+                <MDATTR name="PRODUCT_TYPE" desc="Product type" unit="" type="ascii" mode="rw">GeoTIFF-BigTIFF</MDATTR>
+                <MDATTR name="SPH_DESCRIPTOR" desc="Description" unit="" type="ascii" mode="rw">-</MDATTR>
+                <MDATTR name="MISSION" desc="Satellite mission" unit="" type="ascii" mode="rw">BEAM-DIMAP</MDATTR>
+                <MDATTR name="ACQUISITION_MODE" desc="Acquisition mode" unit="" type="ascii" mode="rw">-</MDATTR>
+                <MDATTR name="antenna_pointing" desc="Right or left facing" unit="" type="ascii" mode="rw">-</MDATTR>
+                <MDATTR name="BEAMS" desc="Beams used" unit="" type="ascii" mode="rw">-</MDATTR>
+                <MDATTR name="SWATH" desc="Swath name" unit="" type="ascii" mode="rw">-</MDATTR>
+                <MDATTR name="PROC_TIME" desc="Processed time" unit="utc" type="utc" mode="rw">01-JAN-2000 00:00:00.000000</MDATTR>
+                <MDATTR name="Processing_system_identifier" desc="Processing system identifier" unit="" type="ascii" mode="rw">-</MDATTR>
+                <MDATTR name="orbit_cycle" desc="Cycle" unit="" type="int32" mode="rw">99999</MDATTR>
+                <MDATTR name="REL_ORBIT" desc="Track" unit="" type="int32" mode="rw">99999</MDATTR>
+                <MDATTR name="ABS_ORBIT" desc="Orbit" unit="" type="int32" mode="rw">99999</MDATTR>
+                <MDATTR name="STATE_VECTOR_TIME" desc="Time of orbit state vector" unit="utc" type="utc" mode="rw">01-JAN-2000 00:00:00.000000</MDATTR>
+                <MDATTR name="VECTOR_SOURCE" desc="State vector source" unit="" type="ascii" mode="rw">-</MDATTR>
+                <MDATTR name="incidence_near" desc="" unit="deg" type="float64" mode="rw">99999.0</MDATTR>
+                <MDATTR name="incidence_far" desc="" unit="deg" type="float64" mode="rw">99999.0</MDATTR>
+                <MDATTR name="slice_num" desc="Slice number" unit="" type="int32" mode="rw">99999</MDATTR>
+                <MDATTR name="data_take_id" desc="Data take identifier" unit="" type="int32" mode="rw">99999</MDATTR>
+                <MDATTR name="first_line_time" desc="First zero doppler azimuth time" unit="utc" type="utc" mode="rw">01-JAN-2000 00:00:00.000000</MDATTR>
+                <MDATTR name="last_line_time" desc="Last zero doppler azimuth time" unit="utc" type="utc" mode="rw">01-JAN-2000 00:00:00.000000</MDATTR>
+                <MDATTR name="first_near_lat" desc="" unit="deg" type="float64" mode="rw">99999.0</MDATTR>
+                <MDATTR name="first_near_long" desc="" unit="deg" type="float64" mode="rw">99999.0</MDATTR>
+                <MDATTR name="first_far_lat" desc="" unit="deg" type="float64" mode="rw">99999.0</MDATTR>
+                <MDATTR name="first_far_long" desc="" unit="deg" type="float64" mode="rw">99999.0</MDATTR>
+                <MDATTR name="last_near_lat" desc="" unit="deg" type="float64" mode="rw">99999.0</MDATTR>
+                <MDATTR name="last_near_long" desc="" unit="deg" type="float64" mode="rw">99999.0</MDATTR>
+                <MDATTR name="last_far_lat" desc="" unit="deg" type="float64" mode="rw">99999.0</MDATTR>
+                <MDATTR name="last_far_long" desc="" unit="deg" type="float64" mode="rw">99999.0</MDATTR>
+                <MDATTR name="PASS" desc="ASCENDING or DESCENDING" unit="" type="ascii" mode="rw">-</MDATTR>
+                <MDATTR name="SAMPLE_TYPE" desc="DETECTED or COMPLEX" unit="" type="ascii" mode="rw">DETECTED</MDATTR>
+                <MDATTR name="mds1_tx_rx_polar" desc="Polarization" unit="" type="ascii" mode="rw">-</MDATTR>
+                <MDATTR name="mds2_tx_rx_polar" desc="Polarization" unit="" type="ascii" mode="rw">-</MDATTR>
+                <MDATTR name="mds3_tx_rx_polar" desc="Polarization" unit="" type="ascii" mode="rw">-</MDATTR>
+                <MDATTR name="mds4_tx_rx_polar" desc="Polarization" unit="" type="ascii" mode="rw">-</MDATTR>
+                <MDATTR name="polsar_data" desc="Polarimetric Matrix" unit="flag" type="uint8" mode="rw">0</MDATTR>
+                <MDATTR name="algorithm" desc="Processing algorithm" unit="" type="ascii" mode="rw">-</MDATTR>
+                <MDATTR name="azimuth_looks" desc="" unit="" type="float64" mode="rw">99999.0</MDATTR>
+                <MDATTR name="range_looks" desc="" unit="" type="float64" mode="rw">99999.0</MDATTR>
+                <MDATTR name="range_spacing" desc="Range sample spacing" unit="m" type="float64" mode="rw">99999.0</MDATTR>
+                <MDATTR name="azimuth_spacing" desc="Azimuth sample spacing" unit="m" type="float64" mode="rw">99999.0</MDATTR>
+                <MDATTR name="range_window_type" desc="Range window type" unit="" type="ascii" mode="rw">-</MDATTR>
+                <MDATTR name="range_window_coefficient" desc="Range window coefficient" unit="" type="float64" mode="rw">99999.0</MDATTR>
+                <MDATTR name="pulse_repetition_frequency" desc="PRF" unit="Hz" type="float64" mode="rw">99999.0</MDATTR>
+                <MDATTR name="radar_frequency" desc="Radar frequency" unit="MHz" type="float64" mode="rw">99999.0</MDATTR>
+                <MDATTR name="line_time_interval" desc="" unit="s" type="float64" mode="rw">99999.0</MDATTR>
+                <MDATTR name="total_size" desc="Total product size" unit="MB" type="uint32" mode="rw">99999</MDATTR>
+                <MDATTR name="num_output_lines" desc="Raster height" unit="lines" type="uint32" mode="rw">3340</MDATTR>
+                <MDATTR name="num_samples_per_line" desc="Raster width" unit="samples" type="uint32" mode="rw">1811</MDATTR>
+                <MDATTR name="subset_offset_x" desc="X coordinate of UL corner of subset in original image" unit="samples" type="uint32" mode="rw">0</MDATTR>
+                <MDATTR name="subset_offset_y" desc="Y coordinate of UL corner of subset in original image" unit="samples" type="uint32" mode="rw">0</MDATTR>
+                <MDATTR name="srgr_flag" desc="SRGR applied" unit="flag" type="uint8" mode="rw">0</MDATTR>
+                <MDATTR name="avg_scene_height" desc="Average scene height ellipsoid" unit="m" type="float64" mode="rw">0.0</MDATTR>
+                <MDATTR name="map_projection" desc="Map projection applied" unit="" type="ascii" mode="rw">-</MDATTR>
+                <MDATTR name="is_terrain_corrected" desc="orthorectification applied" unit="flag" type="uint8" mode="rw">0</MDATTR>
+                <MDATTR name="DEM" desc="Digital Elevation Model used" unit="" type="ascii" mode="rw">-</MDATTR>
+                <MDATTR name="geo_ref_system" desc="geographic reference system" unit="" type="ascii" mode="rw">-</MDATTR>
+                <MDATTR name="lat_pixel_res" desc="pixel resolution in geocoded image" unit="deg" type="float64" mode="rw">99999.0</MDATTR>
+                <MDATTR name="lon_pixel_res" desc="pixel resolution in geocoded image" unit="deg" type="float64" mode="rw">99999.0</MDATTR>
+                <MDATTR name="slant_range_to_first_pixel" desc="Slant range to 1st data sample" unit="m" type="float64" mode="rw">99999.0</MDATTR>
+                <MDATTR name="ant_elev_corr_flag" desc="Antenna elevation applied" unit="flag" type="uint8" mode="rw">0</MDATTR>
+                <MDATTR name="range_spread_comp_flag" desc="range spread compensation applied" unit="flag" type="uint8" mode="rw">0</MDATTR>
+                <MDATTR name="replica_power_corr_flag" desc="Replica pulse power correction applied" unit="flag" type="uint8" mode="rw">0</MDATTR>
+                <MDATTR name="abs_calibration_flag" desc="Product calibrated" unit="flag" type="uint8" mode="rw">0</MDATTR>
+                <MDATTR name="calibration_factor" desc="Calibration constant" unit="dB" type="float64" mode="rw">99999.0</MDATTR>
+                <MDATTR name="chirp_power" desc="Chirp power" unit="" type="float64" mode="rw">99999.0</MDATTR>
+                <MDATTR name="inc_angle_comp_flag" desc="incidence angle compensation applied" unit="flag" type="uint8" mode="rw">0</MDATTR>
+                <MDATTR name="ref_inc_angle" desc="Reference incidence angle" unit="" type="float64" mode="rw">99999.0</MDATTR>
+                <MDATTR name="ref_slant_range" desc="Reference slant range" unit="" type="float64" mode="rw">99999.0</MDATTR>
+                <MDATTR name="ref_slant_range_exp" desc="Reference slant range exponent" unit="" type="float64" mode="rw">99999.0</MDATTR>
+                <MDATTR name="rescaling_factor" desc="Rescaling factor" unit="" type="float64" mode="rw">99999.0</MDATTR>
+                <MDATTR name="bistatic_correction_applied" desc="" unit="flag" type="uint8" mode="rw">0</MDATTR>
+                <MDATTR name="range_sampling_rate" desc="Range Sampling Rate" unit="MHz" type="float64" mode="rw">99999.0</MDATTR>
+                <MDATTR name="range_bandwidth" desc="Bandwidth total in range" unit="MHz" type="float64" mode="rw">99999.0</MDATTR>
+                <MDATTR name="azimuth_bandwidth" desc="Bandwidth total in azimuth" unit="Hz" type="float64" mode="rw">99999.0</MDATTR>
+                <MDATTR name="multilook_flag" desc="Multilook applied" unit="flag" type="uint8" mode="rw">0</MDATTR>
+                <MDATTR name="coregistered_stack" desc="Coregistration applied" unit="flag" type="uint8" mode="rw">0</MDATTR>
+                <MDATTR name="external_calibration_file" desc="External calibration file used" unit="" type="ascii" mode="rw">-</MDATTR>
+                <MDATTR name="orbit_state_vector_file" desc="Orbit file used" unit="" type="ascii" mode="rw">-</MDATTR>
+                <MDATTR name="metadata_version" desc="AbsMetadata version" unit="" type="ascii" mode="rw">7.0</MDATTR>
+                <MDElem name="Orbit_State_Vectors" />
+                <MDElem name="SRGR_Coefficients" />
+                <MDElem name="Doppler_Centroid_Coefficients" />
+            </MDElem>
+            <MDElem name="Processing_Graph">
+                <MDElem name="node.0">
+                    <MDATTR name="id" type="ascii" mode="rw">GenericRegionMergingOp$19015CB2C15</MDATTR>
+                    <MDATTR name="operator" type="ascii" mode="rw">GenericRegionMergingOp</MDATTR>
+                    <MDATTR name="moduleName" type="ascii" mode="rw">Sentinel-2 Toolbox Generic Region Merging</MDATTR>
+                    <MDATTR name="moduleVersion" type="ascii" mode="rw">9.0.2</MDATTR>
+                    <MDATTR name="purpose" type="ascii" mode="rw">The 'Generic Region Merging' operator computes the distinct regions from a product</MDATTR>
+                    <MDATTR name="authors" type="ascii" mode="rw">Jean Coravu</MDATTR>
+                    <MDATTR name="version" type="ascii" mode="rw">1.0</MDATTR>
+                    <MDATTR name="copyright" type="ascii" mode="rw">Copyright (C) 2017 by CS ROMANIA</MDATTR>
+                    <MDATTR name="processingTime" type="ascii" mode="rw">2024-06-14T08:09:15.034Z</MDATTR>
+                    <MDElem name="sources">
+                        <MDATTR name="source" type="ascii" mode="rw">file:/C:/Users/BALLA/Downloads/rainy_days.tif</MDATTR>
+                    </MDElem>
+                    <MDElem name="parameters">
+                        <MDATTR name="totalIterationsForSecondSegmentation" type="ascii">50</MDATTR>
+                        <MDATTR name="regionMergingCriterion" type="ascii">Local Mutual Best Fitting</MDATTR>
+                        <MDATTR name="shapeWeight" type="ascii">0.5</MDATTR>
+                        <MDATTR name="spectralWeight" type="ascii">0.5</MDATTR>
+                        <MDATTR name="threshold" type="ascii">100.0</MDATTR>
+                        <MDATTR name="sourceBandNames" type="ascii">band_1</MDATTR>
+                        <MDATTR name="mergingCostCriterion" type="ascii">Baatz &amp; Schape</MDATTR>
+                    </MDElem>
+                </MDElem>
+                <MDElem name="node.1">
+                    <MDATTR name="id" type="ascii" mode="rw">Write$19015D86E76</MDATTR>
+                    <MDATTR name="operator" type="ascii" mode="rw">Write</MDATTR>
+                    <MDATTR name="moduleName" type="ascii" mode="rw">SNAP Graph Processing Framework (GPF)</MDATTR>
+                    <MDATTR name="moduleVersion" type="ascii" mode="rw">9.0.8</MDATTR>
+                    <MDATTR name="purpose" type="ascii" mode="rw">Writes a data product to a file.</MDATTR>
+                    <MDATTR name="authors" type="ascii" mode="rw">Marco Zuehlke, Norman Fomferra</MDATTR>
+                    <MDATTR name="version" type="ascii" mode="rw">1.3</MDATTR>
+                    <MDATTR name="copyright" type="ascii" mode="rw">(c) 2010 by Brockmann Consult</MDATTR>
+                    <MDATTR name="processingTime" type="ascii" mode="rw">2024-06-14T08:23:43.996Z</MDATTR>
+                    <MDElem name="sources">
+                        <MDATTR name="sourceProduct" type="ascii" mode="rw">file:/C:/Users/BALLA/Desktop/Images_mem/rainy_days_grm.dim</MDATTR>
+                    </MDElem>
+                    <MDElem name="parameters">
+                        <MDATTR name="writeEntireTileRows" type="ascii">true</MDATTR>
+                        <MDATTR name="file" type="ascii">C:\Users\BALLA\Desktop\Images_mem\rainy_days_grm.dim</MDATTR>
+                        <MDATTR name="deleteOutputOnFailure" type="ascii">true</MDATTR>
+                        <MDATTR name="formatName" type="ascii">BEAM-DIMAP</MDATTR>
+                        <MDATTR name="clearCacheAfterRowWrite" type="ascii">false</MDATTR>
+                    </MDElem>
+                </MDElem>
+                <MDElem name="node.2">
+                    <MDATTR name="id" type="ascii" mode="rw">Speckle-Filter$19015DD615F</MDATTR>
+                    <MDATTR name="operator" type="ascii" mode="rw">Speckle-Filter</MDATTR>
+                    <MDATTR name="moduleName" type="ascii" mode="rw">S1TBX SAR Processing</MDATTR>
+                    <MDATTR name="moduleVersion" type="ascii" mode="rw">9.0.4</MDATTR>
+                    <MDATTR name="purpose" type="ascii" mode="rw">Speckle Reduction</MDATTR>
+                    <MDATTR name="authors" type="ascii" mode="rw">Jun Lu, Luis Veci</MDATTR>
+                    <MDATTR name="version" type="ascii" mode="rw">1.0</MDATTR>
+                    <MDATTR name="copyright" type="ascii" mode="rw">Copyright (C) 2014 by Array Systems Computing Inc.</MDATTR>
+                    <MDATTR name="processingTime" type="ascii" mode="rw">2024-06-14T08:29:08.325Z</MDATTR>
+                    <MDElem name="sources">
+                        <MDATTR name="source" type="ascii" mode="rw">file:/C:/Users/BALLA/Desktop/Images_mem/rainy_days_grm.dim</MDATTR>
+                    </MDElem>
+                    <MDElem name="parameters">
+                        <MDATTR name="enl" type="ascii">1.0</MDATTR>
+                        <MDATTR name="filterSizeY" type="ascii">3</MDATTR>
+                        <MDATTR name="targetWindowSizeStr" type="ascii">3x3</MDATTR>
+                        <MDATTR name="sigmaStr" type="ascii">0.9</MDATTR>
+                        <MDATTR name="numLooksStr" type="ascii">1</MDATTR>
+                        <MDATTR name="estimateENL" type="ascii">true</MDATTR>
+                        <MDATTR name="sourceBands" type="ascii" />
+                        <MDATTR name="filter" type="ascii">Lee Sigma</MDATTR>
+                        <MDATTR name="windowSize" type="ascii">7x7</MDATTR>
+                        <MDATTR name="anSize" type="ascii">50</MDATTR>
+                        <MDATTR name="filterSizeX" type="ascii">3</MDATTR>
+                        <MDATTR name="dampingFactor" type="ascii">2</MDATTR>
+                    </MDElem>
+                </MDElem>
+                <MDElem name="node.3">
+                    <MDATTR name="id" type="ascii" mode="rw">Write$19015DD62A3</MDATTR>
+                    <MDATTR name="operator" type="ascii" mode="rw">Write</MDATTR>
+                    <MDATTR name="moduleName" type="ascii" mode="rw">SNAP Graph Processing Framework (GPF)</MDATTR>
+                    <MDATTR name="moduleVersion" type="ascii" mode="rw">9.0.8</MDATTR>
+                    <MDATTR name="purpose" type="ascii" mode="rw">Writes a data product to a file.</MDATTR>
+                    <MDATTR name="authors" type="ascii" mode="rw">Marco Zuehlke, Norman Fomferra</MDATTR>
+                    <MDATTR name="version" type="ascii" mode="rw">1.3</MDATTR>
+                    <MDATTR name="copyright" type="ascii" mode="rw">(c) 2010 by Brockmann Consult</MDATTR>
+                    <MDATTR name="processingTime" type="ascii" mode="rw">2024-06-14T08:29:08.647Z</MDATTR>
+                    <MDElem name="sources">
+                        <MDATTR name="sourceProduct" type="ascii" mode="rw">file:/C:/Users/BALLA/Desktop/Images_mem/rainy_days_grm_Spk.dim</MDATTR>
+                    </MDElem>
+                    <MDElem name="parameters">
+                        <MDATTR name="writeEntireTileRows" type="ascii">true</MDATTR>
+                        <MDATTR name="file" type="ascii">C:\Users\BALLA\Desktop\Images_mem\rainy_days_grm_Spk.dim</MDATTR>
+                        <MDATTR name="deleteOutputOnFailure" type="ascii">true</MDATTR>
+                        <MDATTR name="formatName" type="ascii">BEAM-DIMAP</MDATTR>
+                        <MDATTR name="clearCacheAfterRowWrite" type="ascii">false</MDATTR>
+                    </MDElem>
+                </MDElem>
+            </MDElem>
+        </MDElem>
+    </Dataset_Sources>
+</Dimap_Document>
